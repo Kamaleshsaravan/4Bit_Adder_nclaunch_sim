@@ -1,5 +1,5 @@
 ## Ex No: 01 -Design-of-4-bit-full-adder-using-nclaunch-Simulator-in-Cadence-software
-<br/>
+</br>
 ### Aim:	
   To write a verilog code for 4bit adder and verify the functionality using Test bench.
 
