@@ -18,7 +18,8 @@
 Here’s the Logic Ic for a 1-bit full adder:
 
 
-![image](https://github.com/user-attachments/assets/f1c81f3f-4327-4789-b658-7791b29225f0)
+![image](https://github.com/user-attachments/assets/76dc89ec-ac6b-421a-ae39-a249b32d5a5c)
+
 
 <br>
 <br>
@@ -112,11 +113,10 @@ a) Verify the Functionality
  
 •	After this you can see the window like below
 
+![image](https://github.com/user-attachments/assets/6d720ffc-eba7-4144-bb5c-7eff5db2b543)
 
-![image](https://github.com/user-attachments/assets/f2220dd2-e8e9-4369-8636-a4e664b63752)
 
-
-#### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fig 3: Invoke the Cadence Environment
+#### Fig 3: Invoke the Cadence Environment
 
 -	To Launch Simulation tool
     +	linux:/> nclaunch -new& // “-new” option is used for invoking NCVERILOG for the first time for any design
@@ -129,16 +129,14 @@ a) Verify the Functionality
 
  ![image](https://github.com/user-attachments/assets/39547ab8-4c0e-4013-b99a-390bc76f77be)
 
-#### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fig 4: Invoke the nclaunch
+#### Fig 4: Invoke the nclaunch
 
 -	Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 -	Click the cds.lib file and save the file by clicking on Save option
+![image](https://github.com/user-attachments/assets/6f4c166e-e1d2-4ff6-9a7d-7903eeba9056)
 
 
-![image](https://github.com/user-attachments/assets/de95db6f-a0b9-4ed8-aab5-60084ba2b962)
-
-
-#### &emsp;&emsp;&emsp;Fig 5:cds.lib file Creation
+#### Fig 5:cds.lib file Creation
 <br>
 
 -	Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used.
@@ -177,9 +175,10 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
   +	Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code
   +	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![image](https://github.com/user-attachments/assets/09049562-cbb5-40ef-9aa8-2cdc67077079)
 
 
- ![image](https://github.com/user-attachments/assets/89a72b0f-f1e6-46c1-9916-7ddaf82c15b5)
+ 
 
 #### <p align="center"> Fig 7(a): Compilation Launch Option
 
@@ -205,7 +204,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 &emsp;&emsp;5.	It also establishes net connectivity and prepares all of this for simulation
 
-![image](https://github.com/user-attachments/assets/f31442ae-0d62-45cc-9003-71a125298e39)
+![image](https://github.com/user-attachments/assets/8115909e-6f5c-428f-943e-cfe722a8ea01)
+
 
 #### <p align="center">  Fig 7(b): Compilation Launch Option
 
